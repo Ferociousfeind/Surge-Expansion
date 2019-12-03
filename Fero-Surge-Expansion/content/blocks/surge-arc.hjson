@@ -1,0 +1,28 @@
+type: LaserTurret
+name: Firefly
+description: "A high-power electric turret utilizing purified surge alloy to increase efficiency."
+health: 1000
+size: 2
+shots: 3
+spread: 15
+shootCone: 12.5
+reload: 120
+range: 360
+recoil: 10
+restitution: 0.05
+rotatespeed: 15
+firingMoveFract: 0.75
+shootDuration: 180
+targetAir: false
+heatColor: ff0000
+powerUse: 2
+shootSound: spark
+shootType: arc
+requires: [
+  thorium/50
+  plastanium/50
+  silicon/100
+  pure-surge-alloy/25
+]
+category: turret
+research: lancer

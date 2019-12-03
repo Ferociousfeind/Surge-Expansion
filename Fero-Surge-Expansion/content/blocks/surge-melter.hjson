@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Surge Alloy Melter
+description: Melts surge alloy for purification.
+liquidCapacity: 50
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6667
+  items: {
+    items: [
+      surge-alloy/1
+    ]
+  }
+}
+requirements: [
+  lead/100
+  titanium/25
+  silicon/50
+  graphite/50
+  plastanium/25
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: liquid-surge-alloy/12

@@ -1,0 +1,19 @@
+"type": "flyingUnit"
+"name": "Storm Drone"
+"description": "Produces storm clouds which will damage nearby enemies."
+"speed": 0.1
+"maxVelocity": 0.6
+"flying": "true"
+"range": 160
+"health": 60
+"engineOffset": 8
+"range": 240
+"weapon": {
+  "name": "storm-gun"
+  "length": 3
+  "width": 1
+  "reload": 120
+  "velocityRnd": 0.05
+  "alternate": "true"
+  "bullet": "flakSurge"
+}

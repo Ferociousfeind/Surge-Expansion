@@ -1,8 +1,0 @@
-name: Liquid Surge Alloy
-description: A storm, liquefied and distilled into a high concentration.
-temperature: 2.5
-viscosity: 0.2
-flammability: 1.5
-explosiveness: 0.5
-effect: melting
-color: d6c84b

@@ -1,0 +1,34 @@
+{
+  "type": "PowerTurret",
+  "name": "Tornado",
+  "description": "A powerful turret which rains packets of pure energy down onto targets. Cannot target air.",
+  "health": 1000,
+  "size": 2,
+  "shots": 3,
+  "inaccuracy": 5,
+  "spread": 10,
+  "shootCone": 12.5,
+  "reload": 120,
+  "range": 180,
+  "recoil": 4,
+  "restitution": 0.02,
+  "rotatespeed": 15,
+  "heatColor": "color.red",
+  "powerUse": 2,
+  "shootSound": "spark",
+  "shootType": {
+    "type": "BasicBulletType",
+    "lifetime": 20,
+    "speed": 9,
+    "damage": 80,
+    "status": "shocked"
+  },
+  "requirements": [
+    { "amount": 100, "item": "lead" },
+    { "amount": 15, "item": "plastanium" },
+    { "amount": 50, "item": "silicon" },
+    { "amount": 25, "item": "surge-alloy" }
+  ],
+  "category": "turret",
+  "research": "lancer"
+}

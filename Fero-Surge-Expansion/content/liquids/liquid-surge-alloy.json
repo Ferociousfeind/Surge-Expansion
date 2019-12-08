@@ -1,0 +1,10 @@
+{
+  "name": "Liquid Surge Alloy",
+  "description": "A storm, liquefied and distilled into a high concentration.",
+  "temperature": 0.9,
+  "viscosity": 0.5,
+  "flammability": 0.75,
+  "explosiveness": 0.5,
+  "effect": "melting",
+  "color": "dcec44"
+}

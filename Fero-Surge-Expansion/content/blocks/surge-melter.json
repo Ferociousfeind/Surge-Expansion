@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": "Surge Alloy Melter",
+  "description": "Melts surge alloy for purification.",
+  "liquidCapacity": 20,
+  "size": 1,
+  "hasPower": "true",
+  "hasLiquids": "true",
+  "hasItems": "true",
+  "craftTime": 90,
+  "consumes": {
+    "power": 0.6667,
+    "items": {
+      "items": [
+        { "amount": 2, "item": "surge-alloy" },
+        { "amount": 1, "item": "phase-fabric" }
+      ]
+    }
+  },
+  "requirements": [
+  { "amount": 100, "item": "lead" },
+  { "amount": 25, "item": "titanium" },
+  { "amount": 50, "item": "silicon" },
+  { "amount": 50, "item": "graphite" },
+  { "amount": 25, "item": "plastanium" }
+  ],
+  "category": "crafting",
+  "research": "alloy-smelter",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5,
+  "outputLiquid": {
+    "liquid": "liquid-surge-alloy",
+    "amount": 20
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Storm Drone Factory",
+  "description": "Produces advanced storm-generating drones.",
+  "type": "UnitFactory",
+  "unitType": "storm-drone",
+  "size": 3,
+  "produceTime": 2000,
+  "maxSpawn": 12,
+  "consumes": {
+    "power": 2.0,
+    "items": {
+      "items": [
+        { "amount": 15, "item": "titanium" },
+        { "amount": 5, "item": "silicon" },
+        { "amount": 10, "item": "surge-alloy" }
+      ]
+    }
+  },
+  "category": "units",
+  "research": "revenant-factory"
+  "requirements": [
+    { "amount": 50, "item": "lead" },
+    { "amount": 50, "item": "titanium" },
+    { "amount": 150, "item": "silicon" },
+    { "amount": 15, "item": "plastanium" },
+    { "amount": 8, "item": "surge-alloy" }
+  ]
+}

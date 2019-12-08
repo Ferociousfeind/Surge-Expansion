@@ -1,0 +1,40 @@
+{
+  "type": "Separator",
+  "name": "Surge Alloy Purifier",
+  "description": "Through a complex process of heating, cooling, and mixing, surge alloy can be refined and purified.",
+  "liquidCapacity": 120,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 60,
+  "spinnerRadius": 6.25,
+  "spinnerThickness": 2,
+  "spinnerSpeed": 6,
+  "color": "b4b34f",
+  "updateEffect": smeltsmoke,
+  "consumes": {
+    "power": 0.3333,
+    "liquid": {
+      "liquid": "liquid-surge-alloy",
+      "amount": 0.06
+    }
+  },
+  "category": "crafting",
+  "research": "surge-melter",
+  "results": [
+    { "amount": 10, "item": "pure-surge-alloy" },
+    { "amount": 4, "item": "lead" },
+    { "amount": 3, "item": "copper" },
+    { "amount": 2, "item": "titanium" },
+    { "amount": 1, "item": "scrap" }
+  ],
+  "requirements": [
+    { "amount": 50, "item": "copper" },
+    { "amount": 75, "item": "lead" },
+    { "amount": 25, "item": "titanium" },
+    { "amount": 25, "item": "thorium" },
+    { "amount": 110, "item": "silicon" },
+    { "amount": 5, "item": "surge-alloy" }
+  ]
+}

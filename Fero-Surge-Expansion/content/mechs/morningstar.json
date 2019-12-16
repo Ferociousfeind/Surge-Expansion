@@ -7,7 +7,7 @@
   "drag": 0.15,
   "itemCapacity": 180,
   "buildPower": 1.5,
-  "engineColor": "bbffdd",
+  "engineColor": "00ffff",
   "flying": true,
   "rotateWeapon": true,
   "engineSize": 3,

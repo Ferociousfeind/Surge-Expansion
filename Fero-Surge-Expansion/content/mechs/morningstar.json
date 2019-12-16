@@ -1,6 +1,6 @@
 {
   "name": "Morningstar",
-  "description": "A powerful Revenant unit. Well equipped with missiles and high maneuverability.",
+  "description": "Long range and destructive power, this advanced missile cruiser uses purified surge alloy to its fullest extent.",
   "speed": 0.4,
   "hitsize": 20,
   "mass": 10,

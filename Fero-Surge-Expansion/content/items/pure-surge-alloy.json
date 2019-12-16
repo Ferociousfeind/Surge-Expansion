@@ -2,7 +2,7 @@
   "type": "material",
   "name": "Purified Surge Alloy",
   "description": "Likened to Zeus's thunderbolt, this refined and purified alloy is many times more conductive than crude surge alloy.",
-  "color": "acd726",
+  "color": "00ffff",
   "cost": 3,
   "flammability": 0.5,
   "explosiveness": 0.125,

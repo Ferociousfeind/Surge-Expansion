@@ -1,0 +1,35 @@
+{
+  "type": "GenericSmelter",
+  "name": "Advanced Silicon Smelter",
+  "description": "Employs advanced techniques to produce more silicon, more efficiently.",
+  "size": 3,
+  "hasPower": "true",
+  "hasItems": "true",
+  "craftTime": 20,
+  "updateEffect": "smeltsmoke"
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        { "amount": 2, "item": "coal" },
+        { "amount": 3, "item": "sand" }
+      ]
+    }
+    "liquid": {
+      "liquid": "water"
+      "amount": 2.1
+    }
+  },
+  "requirements": [
+  { "amount": 100, "item": "lead" },
+  { "amount": 25, "item": "titanium" },
+  { "amount": 50, "item": "silicon" },
+  { "amount": 50, "item": "graphite" },
+  { "amount": 25, "item": "plastanium" }
+  ],
+  "category": "crafting",
+  "research": "silicon-smelter",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5,
+  "outputItem": { "amount": 3, "item": "silicon" }
+}

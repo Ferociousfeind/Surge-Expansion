@@ -11,7 +11,7 @@
   "spinnerRadius": 6.25,
   "spinnerThickness": 2,
   "spinnerSpeed": 6,
-  "color": "b4b34f",
+  "color": "00e6ff",
   "updateEffect": smeltsmoke,
   "consumes": {
     "power": 0.3333,

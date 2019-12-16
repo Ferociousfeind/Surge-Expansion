@@ -1,0 +1,19 @@
+{
+  "name": "Morningstar Ship Pad",
+  "description": "Provides transformation into a long-distance missile cruiser.",
+  "type": "MechPad",
+  "mech": "morningstar",
+  "size": 3,
+  "consumes": {
+    "power": 1.5
+  },
+  "category": "upgrade",
+  "research": "glaive-ship-pad",
+  "requirements": [
+    { "item": "lead", "amount": 250 },
+    { "item": "titanium", "amount": 400 },
+    { "item": "silicon", "amount": 350 },
+    { "item": "phase-fabric", "amount": 150 },
+    { "item": "pure-surge-alloy", "amount": 100 }
+  ]
+}

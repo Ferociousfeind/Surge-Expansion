@@ -1,0 +1,43 @@
+{
+  "name": "Morningstar",
+  "description": "A powerful Revenant unit. Well equipped with missiles and high maneuverability.",
+  "speed": 0.4,
+  "hitsize": 20,
+  "mass": 10,
+  "drag": 0.15,
+  "itemCapacity": 180,
+  "buildPower": 1.5,
+  "engineColor": "bbffdd",
+  "flying": true,
+  "rotateWeapon": true,
+  "engineSize": 3,
+  "engineOffset": 9,
+  "health": 500,
+  "weaponOffsetX": 3,
+  "weapon": {
+    "name": "morningstar-missile",
+    "length": -1,
+    "reload": 80,
+    "shots": 3,
+    "shake": 1.5,
+    "alternate": true,
+    "shootSound": "missile",
+    "bullet": {
+      "type": "MissileBulletType",
+      "lifetime": 300,
+      "speed": 3,
+      "damage": 36,
+      "splashDamageRadius": 4,
+      "splashDamage": 18,
+      "frontColor": "00ffff",
+      "backColor": "0000ff",
+      "homingPower": 1,
+      "homingRange": 120,
+      "hitEffect": "hitBulletBig",
+      "smokeEffect": "smoke",
+      "bulletSprite": "missile",
+      "weaveScale": 2,
+      "weaveMag": 0.25
+    }
+  }
+}

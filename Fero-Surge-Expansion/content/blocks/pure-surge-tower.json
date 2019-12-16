@@ -1,0 +1,17 @@
+{
+  "type": "PowerNode",
+  "name": "Surge Networker",
+  "description": "With the enhanced capabilities of purified surge alloy, these structures can maintain advanced power networks over long distances, more effectively than raw surge towers.",
+  "health": 100,
+  "size": 3,
+  "laserRange": 50,
+  "maxNodes": 3,
+  "requirements": [
+    { "amount": 50, "item": "titanium" },
+    { "amount": 10, "item": "metaglass" },
+    { "amount": 25, "item": "silicon" },
+    { "amount": 25, "item": "pure-surge-alloy" }
+  ],
+  "category": "power",
+  "research": "surge-tower"
+}

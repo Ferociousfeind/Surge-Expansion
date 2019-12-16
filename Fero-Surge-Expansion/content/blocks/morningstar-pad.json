@@ -3,7 +3,7 @@
   "description": "Provides transformation into a long-distance missile cruiser.",
   "type": "MechPad",
   "mech": "morningstar",
-  "size": 5,
+  "size": 4,
   "consumes": {
     "power": 1.5
   },
